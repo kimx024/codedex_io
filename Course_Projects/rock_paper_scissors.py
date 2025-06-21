@@ -1,4 +1,3 @@
-import random
 """
 This script allows the user to play the classic game Rock, Paper Scissors
 There is also a variant included called Rock, Paper, Scissors, Lizard, Spock.
@@ -6,6 +5,8 @@ This variant has been made popular through the "The Big Bang Theory".
 
 This script is part of my (@milakim) Codédex checkpoint project of the beginner Python course.
 """
+
+import random
 
 # First function: classic Rock Paper Scissors
 def rock_paper_scissors():
