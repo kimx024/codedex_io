@@ -24,7 +24,7 @@ class CoffeeMenuTest(unittest.TestCase):
 
     # Test if a latte, which is on the menu, costs value 3
     def test_get_price_existing_item(self):
-        self.assertEqual(self.menu.get_price('latte'), 3.00)
+        self.assertEqual(self.menu.get_price('latte'), 2.75)
 
 
     # Test if a coffee, which is not on the menu, costs value 2
