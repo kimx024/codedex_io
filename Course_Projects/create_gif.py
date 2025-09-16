@@ -7,7 +7,7 @@ This script is part of my (@milakim) Codédex final project called "Create a Gif
 beginner Python course. A successful completion will result in the certificate for a beginner level of Python
 """
 
-###### First part: a  GIF of the team of behind Codéx
+###### First part: a GIF of the team of behind Codéx
 import imageio.v3 as iio
 
 filenames = ['team_pic1.png', 'team_pic2.png']
@@ -22,10 +22,10 @@ for filename in filenames:
 iio.imwrite('team.gif', images, duration=500, loop=0)
 
 ###### Second part - make your own: a blinking robot
-my_filenames = ['eyes_open.png', 'eyes_closed.png']
+my_filenames = ['demure.png', 'demureClosed.png']
 my_images = []
 
 for filename in my_filenames:
   my_images.append(iio.imread(filename))
 
-iio.imwrite('blinking_eyes.gif', my_images, duration=500, loop=0)
+iio.imwrite('blinking_horse.gif', my_images, duration=500, loop=0)
